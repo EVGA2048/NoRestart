@@ -27,6 +27,8 @@ Server thread
 
 这是 Arclight 的实现问题，与插件、Sable、存档无关；`stop` / `restartnow` 走正常停服流程则不会触发。
 
+相关 issue：[#1148 Server shutdown never actually exits the JVM](https://github.com/IzzelAliz/Arclight/issues/1148)、[#1327 /restart 需要用两次](https://github.com/IzzelAliz/Arclight/issues/1327)。
+
 ## 这个插件做什么
 
 - 监听 `PlayerCommandPreprocessEvent` / `ServerCommandEvent`，取消所有 `/restart`（含 `bukkit:restart`、`spigot:restart` 等前缀），并提示玩家改用其他方式
