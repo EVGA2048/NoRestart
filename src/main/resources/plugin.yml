@@ -1,0 +1,7 @@
+name: NoRestart
+version: 1.0.0
+main: com.etherstories.norestart.NoRestart
+api-version: '1.21'
+description: Blocks Spigot's built-in /restart, which deadlocks on Arclight
+author: EVGA2048
+license: MIT
